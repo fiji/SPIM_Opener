@@ -29,6 +29,11 @@
 		</dependency>
 	</dependencies>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/SPIM_Opener/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/SPIM_Opener</connection>
 		<developerConnection>scm:git:git@github.com:fiji/SPIM_Opener</developerConnection>
