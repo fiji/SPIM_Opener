@@ -1,5 +1,7 @@
 package spimopener;
 
+import fiji.util.gui.GenericDialogPlus;
+
 import java.awt.Button;
 import java.awt.Frame;
 import java.awt.GridBagConstraints;
@@ -9,8 +11,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
-
-import fiji.util.gui.GenericDialogPlus;
 
 
 public class OpenerGenericDialog extends GenericDialogPlus {

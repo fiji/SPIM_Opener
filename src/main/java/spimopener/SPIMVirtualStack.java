@@ -4,7 +4,6 @@ import ij.process.ImageProcessor;
 import ij.process.ShortProcessor;
 
 import java.io.File;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,7 +1,6 @@
 package spimopener;
 
 import ij.ImageStack;
-
 import ij.process.ImageProcessor;
 
 public abstract class SPIMStack extends ImageStack {

@@ -1,9 +1,7 @@
 package spimopener;
 
 import fiji.util.gui.GenericDialogPlus;
-
 import ij.IJ;
-
 import ij.plugin.PlugIn;
 
 import java.io.File;
