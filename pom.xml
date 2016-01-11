@@ -14,6 +14,7 @@
 
 	<name>plugins/SPIM_Opener.jar</name>
 	<description />
+	<inceptionYear>2011</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/fiji/SPIM_Opener</connection>
