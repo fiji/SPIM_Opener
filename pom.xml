@@ -81,8 +81,8 @@
 		<url>https://github.com/fiji/SPIM_Opener/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/SPIM_Opener/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/SPIM_Opener</url>
 	</ciManagement>
 
 	<properties>
