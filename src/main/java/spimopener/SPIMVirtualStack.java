@@ -63,7 +63,7 @@ public class SPIMVirtualStack extends SPIMStack {
 	public void addSlice(String sliceLabel, ImageProcessor ip, int n) {
 	}
 
-	/** Deletes the specified slice, were 1<=n<=nslices. */
+	/** Deletes the specified slice, were 1&lt;=n&lt;=nslices. */
 	public void deleteSlice(int n) {
 		if(n < 1 || n > paths.size())
 			throw new IllegalArgumentException("Argument out of range: " + n);
@@ -76,7 +76,7 @@ public class SPIMVirtualStack extends SPIMStack {
 			deleteSlice(paths.size());
 	}
 
-	/** Returns the pixel array for the specified slice, were 1<=n<=nslices. */
+	/** Returns the pixel array for the specified slice, were 1&lt;=n&lt;=nslices. */
 	public Object getPixels(int n) {
 		ImageProcessor ip = getProcessor(n);
 		return ip == null ? null : ip.getPixels();
@@ -84,14 +84,14 @@ public class SPIMVirtualStack extends SPIMStack {
 
 	/**
 	 * Assigns a pixel array to the specified slice,
-	 * were 1<=n<=nslices.
+	 * were 1&lt;=n&lt;=nslices.
 	 */
 	public void setPixels(Object pixels, int n) {
 	}
 
 	/**
 	 * Returns an ImageProcessor for the specified slice,
-	 *  were 1<=n<=nslices. Returns null if the stack is empty.
+	 *  were 1&lt;=n&lt;=nslices. Returns null if the stack is empty.
 	 */
 	public ImageProcessor getProcessor(int n) {
 		ImageProcessor ip = null;
